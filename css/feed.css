@@ -1,0 +1,15 @@
+#feed-background {
+    opacity: .98;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 1.75em;
+}
+
+
+.row iframe {
+    margin-top: 1.5em;
+    background-color: rgba(5, 5, 5, .75);
+}
+
+

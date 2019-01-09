@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self'; 
+    script-src 'self' 'unsafe-inline' https://*.jquery.com https://*.bootstrapcdn.com 
+    https://cdn.syndication.twimg.com https://platform.twitter.com;
+    style-src 'self' 'unsafe-inline' https://brave.moodyroosterdesign.com https://platform.twitter.com  https://*.bootstrapcdn.com
+    https://*.fontawesome.com https://ton.twimg.com https://cloud.typography.com;
+    img-src 'self' data: https://*.meetupstatic.com https://*.twimg.com https://*.twitter.com; 
+    child-src 'none';
+    frame-src https://*.vimeo.com https://*.twitter.com;
+    font-src data: https://*.fontawesome.com;
+    ">
+
+    <title>BAT Knowledge</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/secondary.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7197656/6778392/css/fonts.css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.batcommunity.org"]);
+        _paq.push(["setDomains", ["*.batcommunity.org"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.brave.com/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '8']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//analytics.brave.com/piwik.php?idsite=8&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Matomo Code -->
+
+
+</head>
+
+<body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an outdated browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="background" id="backgroundInnerPage">
+        <div class="mainWrapper"></div>
+
+    </div>
+
+    <div class="nav-background"></div>
+
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="index.html">
+                <img src="images/batcommunitylogo-full.svg" class="navbar-brand" id="mainlogo2" href="#" height="35px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://blog.batcommunity.org/category/news/" target="_blank">News
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="knowledge.html">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feed.html">video feed</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forum.batcommunity.org/" target="_blank">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.meetup.com/pro/batcommunity">Meetups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://store.brave.com" target="_blank">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="getBrave" href="https://brave.com" target="_blank">
+                            <img id="navLion" src="images/bravelion-logo.svg" height="24px" style="margin-right: 8px; padding-bottom: 2px;">
+                            <img id="navLion-black" src="images/bravelion-logo-black.svg" height="24px" style="margin-right: 8px; padding-bottom: 2px;">Get
+                            Brave
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="pageTitle">
+            <h2>Knowledge Base</h2>
+            <p>Learn everything you wanted about the Basic Attention Token project.</p>
+        </div>
+
+        <div class="wrappingcontainer" id="knowledge-mainContent">
+
+            <div class="accordion" id="knowledge-accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-chevron-down" aria-hidden="true"></i> General Info
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="list-group">
+                                <a href="https://www.reddit.com/r/BATProject/comments/7cr7yc/new_to_bat_read_this_introduction_to_basic/"
+                                    class="list-group-item list-group-item-action flex-column align-items-start" target="_blank">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p>
+                                            Introduction to Basic Attention Token
+                                        </p>
+
+                                    </div>
+
+                                    <small>A complete overview of Basic Attention Token: what it is, what it solves and
+                                        how.</small>
+                                </a>
+
+
+                                <a href="https://brave.com/into-the-blockchain-brave-with-metamask/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                    target="_blank">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <p>
+                                            Exchange for BAT with no fees using AirSwap, Brave and Metamask
+                                        </p>
+
+                                    </div>
+
+                                    <small>How to use Metamask with Brave to exchange for BAT tokens via decentralized
+                                        atomic
+                                        swaps.
+                                    </small>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i> BAT in Brave Rewards
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <a href="https://support.brave.com/hc/en-us/articles/360018211071-How-do-I-verify-a-YouTube-Channel-with-Brave-Payments-"
+                                        class="list-group-item list-group-item-action flex-column align-items-start"
+                                        target="_blank">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <p>
+                                                How to Verify Your YouTube Channel
+                                            </p>
+
+                                        </div>
+
+                                        <small>Setup your YouTube channel with Brave Payments.</small>
+                                    </a>
+                                    <a href="https://support.brave.com/hc/en-us/articles/360018210951-How-do-I-verify-my-website-or-domain-with-Brave-Payments-" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <p>
+                                                How to Verify Your Website Domain Name (Upload Method)
+                                            </p>
+
+                                        </div>
+
+                                        <small>Verify your website domain name using the .well-known upload method with
+                                            Brave
+                                            Payments.
+                                        </small>
+                                    </a>
+
+                            
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i> Community
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <a href="https://goo.gl/huZtKK" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <p>
+                                                BAT Community Guidelines
+                                            </p>
+
+                                        </div>
+
+                                        <small>Rules for participating in the BAT Community.</small>
+                                    </a>
+
+                                    <a href="https://forum.batcommunity.org/t/interested-becoming-a-regional-leader-heres-how/36" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <p>
+                                                BAT Regional Leader Roles and Responsibilities
+                                            </p>
+
+                                        </div>
+
+                                        <small>Learn about what you will be doing as a BAT Regional Leader volunteer!</small>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i> Developers & Technical
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="list-group">
+                                        <a href="https://blog.batcommunity.org/2018/07/ethereum-erc20-and-basic-attention-token-bat/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+                                                    Ethereum and Basic Attention Token (BAT)
+                                                </p>
+
+                                            </div>
+
+                                            <small>BAT as an Ethereum-based ERC20 utility token and smart contract.</small>
+                                        </a>
+                                       
+                                        <a href="https://status.brave.com/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+
+                                                    BAT & Brave Server Status
+                                                </p>
+
+                                            </div>
+
+                                            <small>See server uptime and status updates for BAT and Brave-related sites
+                                                and
+                                                services.
+                                            </small>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i> Interviews & AMAs
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+
+                                    <div class="list-group">
+                                        <a href="https://www.reddit.com/r/BATProject/comments/99epmy/im_brian_bondy_cofounder_and_cto_of_brave_ama/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+                                                    Brian Bondy (CTO) AMA (August 22, 2018)
+                                                </p>
+
+                                            </div>
+
+                                            <small>Brian Bondy is the CTO and co-founder of Brave Software.
+                                            </small>
+                                        </a>
+
+                         
+
+                           
+                                        <a href="https://basicattentiontoken.org/ama-with-brendan-eich/" class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+                                                    Brendan Eich (CEO) AMA (August 16, 2018)
+                                                </p>
+
+                                            </div>
+
+                                            <small>Reddit AMA with Brendan Eich (CEO) on August 16th, 2018.</small>
+                                        </a>
+
+                                 
+
+                                  
+                                        <a href="https://blog.batcommunity.org/live-ama-interview-with-brendan-eich-december-20-2018/"
+                                            class="list-group-item list-group-item-action flex-column align-items-start"
+                                            target="_blank">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <p>
+                                                    Brendan Eich (CEO) AMA (December 20, 2017)
+                                                </p>
+
+                                            </div>
+
+                                            <small>Transcript of RocketChat AMA with Brendan Eich (CEO) on December
+                                                20th,
+                                                2017.
+                                            </small>
+                                        </a>
+                              
+
+                                   
+                                            <a href="https://old.reddit.com/r/BATProject/comments/9x1zdw/im_brian_brown_braves_chief_business_officer_ama/"
+                                                class="list-group-item list-group-item-action flex-column align-items-start"
+                                                target="_blank">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <p>
+                                                        Brian Brown (CBO) AMA (November 14, 2018)
+                                                    </p>
+    
+                                                </div>
+    
+                                                <small>Brian Brown is Chief Business Officer (CBO) at Brave.
+                                                </small>
+                                            </a>
+    
+
+                                    
+                                                <a href="https://reddit.com/r/BATProject/comments/9p04su/im_yan_zhu_braves_chief_information_security/"
+                                                    class="list-group-item list-group-item-action flex-column align-items-start"
+                                                    target="_blank">
+                                                    <div class="d-flex w-100 justify-content-between">
+                                                        <p>
+                                                           Yan Zhu (CISO) AMA (October 17, 2018)
+                                                        </p>
+        
+                                                    </div>
+        
+                                                    <small>Yan Zhu is Chief Information Security Officer at Brave.
+                                                    </small>
+                                                </a>
+        
+
+                                           
+                                                    <a href="https://reddit.com/r/BATProject/comments/9ld9ej/im_david_temkin_braves_chief_product_officer_ama/"
+                                                        class="list-group-item list-group-item-action flex-column align-items-start"
+                                                        target="_blank">
+                                                        <div class="d-flex w-100 justify-content-between">
+                                                            <p>
+                                                               David Temkin (CPO) AMA (October 4, 2018)
+                                                            </p>
+            
+                                                        </div>
+            
+                                                        <small>David Temkin is Chief Product Officer at Brave.
+                                                        </small>
+                                                    </a>
+            
+                                              
+
+                                    
+                                            <a href="https://reddit.com/r/BATProject/comments/9z5vnp/im_luke_mulks_director_of_business_development_at/"
+                                                class="list-group-item list-group-item-action flex-column align-items-start"
+                                                target="_blank">
+                                                <div class="d-flex w-100 justify-content-between">
+                                                    <p>
+                                                        Luke Mulks AMA (November 21, 2018)
+                                                    </p>
+    
+                                                </div>
+    
+                                                <small>Luke Mulks is Director of Business Development and ad technologies expert at Brave.
+                                                </small>
+                                            </a>
+    
+                                
+
+                                     
+                                                <a href="https://reddit.com/r/BATProject/comments/a183fl/im_alex_wykoff_user_research_at_brave_ama/"
+                                                    class="list-group-item list-group-item-action flex-column align-items-start"
+                                                    target="_blank">
+                                                    <div class="d-flex w-100 justify-content-between">
+                                                        <p>
+                                                            Alex Wykoff AMA (November 28, 2018)
+                                                        </p>
+        
+                                                    </div>
+        
+                                                    <small>Alex is User Research at Brave.
+                                                    </small>
+                                                </a>
+        
+                                            
+
+                                        
+                                                    <a href="https://reddit.com/r/BATProject/comments/9t083z/im_jonathan_sampson_senior_developer_relations_at/"
+                                                        class="list-group-item list-group-item-action flex-column align-items-start"
+                                                        target="_blank">
+                                                        <div class="d-flex w-100 justify-content-between">
+                                                            <p>
+                                                               Jonathan Sampson AMA (October 31, 2018)
+                                                            </p>
+            
+                                                        </div>
+            
+                                                        <small>Jonathan Sampson is Senior Developer Relations specialist at Brave.
+                                                        </small>
+                                                    </a>
+
+                                                    <a href="https://www.reddit.com/r/BATProject/comments/a5l868/were_ryan_watson_it_operations_manager_and_kamil/"
+                                                    class="list-group-item list-group-item-action flex-column align-items-start"
+                                                    target="_blank">
+                                                    <div class="d-flex w-100 justify-content-between">
+                                                        <p>
+                                                           Ryan Watson & Kamil Jozwiak AMA (December 12, 2018)
+                                                        </p>
+        
+                                                    </div>
+        
+                                                    <small>Ryan is IT & Ops Manager at Brave, and Kamil is QA Lead at Brave.
+                                                    </small>
+                                                </a>
+            
+                                                </div>
+    
+    
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="cardRows" id="knowledge-FeaturedArticles">
+
+                <div class="row">
+    
+    
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="top-card">
+                                <a href="https://basicattentiontoken.org/ama-with-brendan-eich/" target="_blank">
+                                    <img id="card1-image" src="images/brendaneich-facesofopensource.jpg" style="object-fit: cover; object-position: top;"
+                                        width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p>AMA with Brendan Eich (CEO)</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="top-card">
+                                <a href="https://brave.com/ama-with-yan-zhu/" target="_blank">
+                                    <img id="card1-image" src="images/yanzhu-facesofopensource2.jpg" style="object-fit: cover; object-position: top;"
+                                        width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p>AMA with Yan Zhu (CISO)</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="top-card">
+                                <a href="https://brave.com/ama-with-brian-brown/" target="_blank">
+                                    <img id="card1-image" src="images/brianbrown.jpg" style="object-fit: cover; object-position: center;"
+                                        width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p>AMA with Brian Brown (CBO)</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+    
+
+        </div>
+
+        <footer>
+            <div class="row" id="socials">
+                <div class="col-sm-12">
+
+                    <a href="https://www.meetup.com/pro/batcommunity" target="_blank">
+                        <i class="fab fa-meetup fa-2x hoverSocial" href=""></i>
+                    </a>
+                    <a href="https://twitter.com/bat_community" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x hoverSocial"></i>
+                    </a>
+                    <a href="https://reddit.com/r/batproject" target="_blank">
+                        <i class="fab fa-reddit-alien fa-2x hoverSocial"></i>
+                    </a>
+                    <a href="https://facebook.com/attentiontoken" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x hoverSocial"></i>
+                    </a>
+
+                    <a href="https://instagram.com/bat_community" target="_blank">
+                        <i class="fab fa-instagram fa-2x hoverSocial"></i>
+                    </a>
+                    <a href="https://basicattentiontoken.rocket.chat" target="_blank">
+                        <i class="fab fa-rocketchat fa-2x hoverSocial"></i>
+                    </a>
+                    <a href="https://t.me/batproject" target="_blank">
+                        <i class="fab fa-telegram fa-2x hoverSocial" style="margin-right: 0;"></i>
+                    </a>
+
+                    <div id="privacypolicy">
+                        <a href="privacy.html">Privacy Policy</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+
+
+
+        <div class="footer-bar"></div>
+</body>
+
+<!-- Choose random background -->
+<!-- <script src="js/background.js"></script> -->
+
+</html>

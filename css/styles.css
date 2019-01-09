@@ -1,0 +1,444 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+    color: gray;
+    cursor: pointer;
+}
+
+body {
+    background-size: cover;
+    /* font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; */
+    font-family: 'Muli', sans-serif;
+    background-color: #f0f1f4;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    width: 100vw;
+}
+
+.background {  
+    /* Default BG with noJS */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.93;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: url('../images/stars4.jpg'); 
+}
+
+.mainWrapper {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    opacity: 0;
+} 
+
+.pageTitle {
+    color: white;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.wrappingcontainer {
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+#mainlogo2:hover {
+    opacity: 0.8;
+    cursor: pointer !important;
+}
+
+/* Carousel */
+
+#carouselExampleIndicators {
+    cursor: pointer !important;
+    box-shadow: 0px 12px 18px -6px rgba(28,28,28,0.2);
+}
+
+.carousel-inner {
+    border-radius: 0.25em;
+}
+
+.carousel-item {
+    cursor: pointer !important;
+}
+
+.carousel-item:hover {
+    cursor: pointer !important;
+    filter: brightness(92%);
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.carousel-caption {
+    top: 40%;
+    line-height: 1.5em;
+    font-size: .9em;
+    text-shadow: 0px 0px 2px rgba(0,0,0,.3);
+}
+
+#privacypolicy  {
+    margin-top: .9em;
+}
+
+
+#privacypolicy a {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#privacypolicy a:hover {
+    color: purple;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    font-size: 0.85em;
+    bottom: 0;
+    position: absolute;
+    z-index: 100;
+    padding-bottom: 2em;
+}
+
+.footer-bar {
+    height: 4em;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+i:hover.hoverSocial {
+    color:#702696;
+    cursor: pointer !important;
+}
+
+#footer-privacypolicy {
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+
+}
+
+#socials a {
+    color: #676767;
+    margin-top: 1em;
+}
+
+/* Navigation Bar */
+
+nav {
+    margin-bottom: 2em;
+}
+
+.navbar-light .navbar-toggler-icon { /* Hamburger menu */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.nav-background {
+    background-color: none;
+    opacity: 0.5;
+    height: 4.7em;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.navbar-collapse.collapse.show { /* When accordion menu is fully open */
+    background: white;
+    opacity: 1;
+    margin-top: 1.25em;
+    margin-bottom: -0.65em;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    border-radius: 0.25em;
+    box-shadow: 0px 1px 7px rgba(0,0,0,.06);
+}
+
+
+.navbar-collapse.collapse.show #navLion { 
+    display: none;
+}
+
+#navLion-black {
+    display: none; 
+}
+
+.navbar-collapse.collapse.show #navLion-black { 
+    display: inline-block; 
+}
+
+.navbar-collapse.collapse.show a.nav-link {
+    color: #6f6f6f !important;
+}
+
+nav .collapsing { 
+    background: white;
+    opacity: 1;
+    margin-top: 1.25em;
+    margin-bottom: -0.65em;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    border-radius: 0.25em;
+    box-shadow: 0px 1px 7px rgba(0,0,0,.06);
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height .35s ease;
+    -o-transition: height .35s ease;
+    transition: height .35s ease;
+} 
+
+.collapsing li {
+    padding-top: 1em;
+}
+
+.navbar-collapse.collapse.show li {
+    padding-top: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { /* Navigation (desktop) hover */
+    color: lightgray;
+    cursor: pointer;
+    transition: color .1s ease-in-out;
+    -moz-transition: color .1s ease-in-out;
+    -webkit-transition: color .1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer !important;
+    color: gray;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1.5em;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.nav-item {
+    padding-left: 2.5em;
+}
+
+.navbar-background-gradient {
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    height: 4.7em;
+    position: absolute;
+} 
+
+.navbar-light .navbar-nav .nav-link { /* Navbar links (normal case) */
+    padding: 0;
+    font-size: 0.95em;
+    color: white;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,.1);
+    text-transform: lowercase;
+
+}
+
+.bg-light {
+    background: none !important;
+}
+
+/* Cards */
+
+.top-card img:hover {
+    cursor: pointer !important;
+    filter: brightness(85%);
+    transition: filter .15s ease-in-out;
+    -moz-transition: filter .15s ease-in-out;
+    -webkit-transition: filter .15s ease-in-out;
+}
+
+.top-card {
+    width: 100%;
+    height: 14em;
+    background: black;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    overflow: hidden;
+}
+
+.card-text {
+    font-size: 0.85em;
+    color: #969696;
+}
+
+.card-title {
+    font-size: 1.2em;
+    color: #505050;
+    line-height: 1.5em;
+}
+
+.cardRows .card-body {
+    padding: 18px;
+    overflow: hidden !important;
+        
+}
+
+.card-description-bar {
+    width: 100%;
+    height: 3.25em;
+    color: white;
+    padding-top: .85em;
+    padding-left: 1.25em;
+    z-index: 10;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-weight: 500;
+    background-color: gray;
+}
+
+.card {
+    /* box-shadow: 0 2px 8px 0 rgba(35,47,53,.09); */
+    box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
+}
+
+.cardRows .card {
+    height: 28em;
+    border: 0px;
+    margin-top: 1.75em;
+} 
+
+
+/* 
+.cardRows .card:hover {
+    transform: scale(1.0075);
+
+    transition: transform .1s ease-in-out;
+    -moz-transition: transform .25s ease-in-out;
+    -webkit-transition: transform .25s ease-in-out;
+} */
+
+i.fab {
+    padding-right: .65em;
+}
+
+.card-twitter-timeline {
+    overflow: hidden;
+    margin-top: -.5em;
+}
+
+/* #redditStream-card {
+    overflow: auto !important;
+}
+
+#redditStream {
+    padding: .5em;
+}
+
+#redditStream a {
+    color: black;
+}
+
+.redditStream-item {
+    margin-bottom: .3em;
+    padding: 0.8em;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+#redditCard .card-body {
+    padding: 0;
+    padding-right: .45em;
+    padding-left: .45em;
+} */
+
+/* Launch Cards (cards that explain navigation) 
+
+.miniCards .card {
+    height: 10em;
+    margin-top: 1.25em;
+    border: none;
+}
+
+.miniCards .top-card {
+    width: 100%;
+    height: 5em;
+    background: black;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    overflow: hidden;
+}
+
+.miniCards .card-body{
+    border-radius: .25em;
+}
+
+.miniCards .card-text {
+    font-size: 0.95em;
+    color: white;
+}
+
+.miniCards .card-title {
+    color:white;
+    font-size: 1.6em;
+    margin-bottom: 8px;
+    text-transform: lowercase;
+}
+
+
+.miniCards .card:hover {
+    cursor: pointer;
+    transform: scale(1.015);
+    box-shadow: 0 2px 8px 0 rgba(35,47,53,.5);
+
+    transition: all .1s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+} */
+
+/* Media Queries */ 
+
+@media only screen and (max-width: 992px) {
+
+    .background {
+        height: 100%;
+        position: fixed;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardRows .card {
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .cardRows .card {
+        height: 28em;
+    }
+}

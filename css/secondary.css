@@ -1,0 +1,115 @@
+#backgroundInnerPage {
+    height: 100vh;
+    background-image: url('../images/stars4.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+#knowledge-mainContent {
+    margin-top: .3em;
+    margin-bottom: 1.5em;
+    background: none;
+    border-radius: 0.25em;
+    padding: 0;
+
+}
+
+#knowledge-accordion {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+#knowledge-accordion .card {
+    /* box-shadow: 0 0px 6px 0px rgba(35,47,53,.09); */
+    border: 0px;
+    border-radius: 6px;
+}
+
+#knowledge-accordion .card-body {
+    padding: .65em;
+}
+
+#knowledge-accordion .list-group-item {
+    border-color: #f5f2f2;
+}
+
+#knowledge-accordion .list-group-item a {
+    border-color: #f5f2f2;
+    cursor: pointer !important;
+}
+
+
+#knowledge-accordion .card-header {
+    color: white;
+    padding: .5em;
+    border-bottom-color: #dedede !important;
+    opacity: .65;
+
+}
+
+#knowledge-accordion .card {
+    box-shadow: 0 2px 8px 0 rgba(35,47,53,.02);
+}
+
+#knowledge-accordion .card-header:hover {
+    background-color: gainsboro;
+    transition: background-color .25s ease-in-out;
+    -moz-transition: bakground-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+
+}
+
+#knowledge-accordion .card-header button {
+    color: #4b4b4b;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+#knowledge-accordion .card-header .btn-link { /* Disable hover effect */
+    text-decoration: none;
+    font-size: .8em;
+}
+
+#knowledge-accordion .card-header .btn-link:hover { /* Disable hover effect */
+    text-decoration: none;
+}
+
+#knowledge-accordion .fa {
+    font-size: .65em;
+}
+
+#knowledge-accordion p {
+    margin-bottom: 0;
+}
+
+#knowledge-FeaturedArticles {
+    margin-top: -1.25em;
+}
+
+#knowledge-FeaturedArticles .card {
+    height: 16em;
+}
+
+#knowledge-FeaturedArticles .card-body {
+    padding: 1em;
+    padding-bottom: .2em;
+}
+
+#privacyPolicy {
+    padding: 3em;
+    color: #404040;
+}
+
+@media only screen and (max-width: 580px) {
+    #privacyPolicy {
+        padding: 1em;
+    }
+}
+
+table, th, td {
+    padding: 11px;
+    text-align: center;
+    border: 1px solid #dedede;
+    font-size: .9em;
+}

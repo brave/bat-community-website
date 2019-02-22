@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: batcommunity.org
+Token: 63c7bfd1c8bbc8b8b3048338d3e0ccb2c77c24c040c06edfc8d59c1cc4f59167

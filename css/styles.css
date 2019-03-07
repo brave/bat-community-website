@@ -300,6 +300,7 @@ a:hover {
     font-size: 1.2em;
     color: #505050;
     line-height: 1.5em;
+    font-weight: bold;
 }
 
 .cardRows .card-body {

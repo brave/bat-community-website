@@ -335,14 +335,15 @@ a:hover {
     margin-top: 1.75em;
 } 
 
-/* 
-.cardRows .card:hover {
-    transform: scale(1.0075);
-
-    transition: transform .1s ease-in-out;
-    -moz-transition: transform .25s ease-in-out;
-    -webkit-transition: transform .25s ease-in-out;
-} */
+.card .badge {
+    position: absolute;
+    top: -12px;
+    right: -5px;
+    padding: 6px;
+    box-shadow: 0px 2px 4px 0px rgba(34,56,101,.3);
+    background-color: #ff590a;
+    z-index: 1;
+}
 
 i.fab {
     padding-right: .65em;

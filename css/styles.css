@@ -11,7 +11,6 @@ html {
 }
 
 a {
-    color: gray;
     cursor: pointer;
 }
 
@@ -87,11 +86,40 @@ body {
     -webkit-transition: opacity .2s ease-in-out;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    top: 40%; /* Vertical position */
+    width: 7%; /* Distance to sides */
+}
+
+a.carousel-control-next, a.carousel-control-prev {
+    height: 50px;
+}
+
 .carousel-caption {
     top: 40%;
     line-height: 1.5em;
     font-size: .9em;
     text-shadow: 0px 0px 2px rgba(0,0,0,.3);
+}
+
+.carousel-note {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 1.5em;
+    left: 1.85em;
+    z-index: 5 !important;
+    font-size: calc(4px + 5 * ((100vw - 320px) / 680));
+}
+
+.carousel-note a {
+    color:lightblue;
+}
+
+.carousel-note a:hover {
+    color: plum;
 }
 
 #privacypolicy  {

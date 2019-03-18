@@ -103,7 +103,7 @@ a.carousel-control-next, a.carousel-control-prev {
 }
 
 .carousel-note {
-    color: white;
+    color: #efefef;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.095em;

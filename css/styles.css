@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -87,8 +89,8 @@ body {
 }
 
 .carousel-control-next, .carousel-control-prev {
-    top: 40%; /* Vertical position */
-    width: 7%; /* Distance to sides */
+    top: 41%; /* Vertical position */
+    width: 8%; /* Distance to sides */
 }
 
 a.carousel-control-next, a.carousel-control-prev {
@@ -103,7 +105,7 @@ a.carousel-control-next, a.carousel-control-prev {
 }
 
 .carousel-note {
-    color: #efefef;
+    color: #e8e8e8;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.095em;
@@ -128,7 +130,7 @@ a.carousel-control-next, a.carousel-control-prev {
 
 
 #privacypolicy a {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #privacypolicy a:hover {
@@ -327,9 +329,9 @@ a:hover {
 
 .card-title {
     font-size: 1.2em;
-    color: #505050;
+    color: #5e5e5e;
     line-height: 1.5em;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .cardRows .card-body {

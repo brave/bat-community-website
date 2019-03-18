@@ -106,9 +106,9 @@ a.carousel-control-next, a.carousel-control-prev {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.095em;
     position: absolute;
-    top: 1.5em;
+    bottom: 1.5em;
     left: 1.85em;
     z-index: 5 !important;
     font-size: calc(4px + 5 * ((100vw - 320px) / 680));

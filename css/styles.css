@@ -334,6 +334,14 @@ a:hover {
     font-weight: 700;
 }
 
+.card-title a {
+    color: #5e5e5e;
+}
+
+.card-title a:hover {
+    color: #007BFF;
+}
+
 .cardRows .card-body {
     padding: 18px;
     overflow: hidden !important;

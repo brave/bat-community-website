@@ -31,11 +31,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -81,8 +81,14 @@
             var u = "//analytics.brave.com/";
             _paq.push(['setTrackerUrl', u + 'piwik.php']);
             _paq.push(['setSiteId', '8']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
         })();
     </script>
     <noscript>
@@ -157,8 +163,16 @@
                         <span class="carousel-note">
                             Click to learn more
                         </span>
+                        <a href="https://brave.com/brave-rewards">
+                            <img class="d-block w-100" src="images/carousel-5-2.jpg" alt="first slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <span class="carousel-note">
+                            Click to learn more
+                        </span>
                         <a href="https://www.youtube.com/watch?v=iJwLxeKxp3k">
-                            <img class="d-block w-100" src="images/carousel-1-2.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="images/carousel-1-2.jpg" alt="second slide">
                         </a>
                     </div>
                     <div class="carousel-item">
@@ -166,7 +180,7 @@
                             Click to learn more
                         </span>
                         <a href="https://brave.com/publishers">
-                            <img class="dc-block w-100" src="images/carousel-3-2.jpg" alt="First slide">
+                            <img class="dc-block w-100" src="images/carousel-3-2.jpg" alt="third slide">
                         </a>
                     </div>
                     <div class="carousel-item">
@@ -175,7 +189,7 @@
                             apply
                         </span>
                         <a href="https://www.youtube.com/watch?v=3r6dssVyK0E">
-                            <img class="d-block w-100" src="images/carousel-2-2.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/carousel-2-2.jpg" alt="fourth slide">
                         </a>
                     </div>
 
@@ -195,24 +209,25 @@
 
                 <div class="row">
 
-
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://brave.com/brave-rewards" target="_blank">
-                                    <img id="card1-image" src="images/braveads.png"
+                                <a href="https://brave.com/brave-ads-on-android/" target="_blank">
+                                    <img id="card1-image" src="images/featured-braveads.png"
                                         style="object-fit: cover; object-position: top;" width="100%" height="100%">
                                 </a>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><a href="https://brave.com/brave-rewards"
-                                        target="_blank">It's here. Brave Ads is live!</a></h5>
+                                <h5 class="card-title"><a href="https://brave.com/brave-ads-on-android/"
+                                        target="_blank">Brave Ads now on Android</a>
+                                </h5>
                                 <p class="card-text">
-                                    Starting today, users of Brave’s latest release of the desktop browser can choose to
-                                    view privacy-preserving Brave Ads by opting into Brave Rewards. These users will
-                                    receive 70% of the ad revenue share as a reward for their attention.
+                                    Brave Ads is now live on Android, which means you can begin earning BAT for opting
+                                    into
+                                    privacy-respecting ads on your Android phone!
                                     <br /><br />
-                                    See our <a href="https://brave.com/brave-ads-launch/">announcement blog post</a> for details.
+                                    Users who consent to viewing privacy-preserving ads are rewarded with 70% of the ad
+                                    revenue share in BAT.
                                 </p>
                             </div>
                         </div>
@@ -221,22 +236,45 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://brave.com/brave-rewards-now-on-android/" target="_blank">
+                                <a href="https://meetup.com/basicattentiontoken/events" target="_blank">
                                     <img id="card1-image"
-                                        src="images/brandroid.png"
+                                        src="https://pbs.twimg.com/media/D_trs0sVAAAiXUp?format=jpg&name=medium"
                                         style="object-fit: cover; object-position: top;" width="100%" height="100%">
                                 </a>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><a href="https://brave.com/brave-rewards-now-on-android/"
-                                        target="_blank">Brave Rewards now live on Android for millions of users!</a>
-                                </h5>
+                                <h5 class="card-title"><a href="https://meetup.com/basicattentiontoken/events"
+                                        target="_blank">SLIVER.tv Advertising Partnership</a></h5>
                                 <p class="card-text">
-                                    Brave Rewards (BAT tipping) is now live on Android for millions of users to see. Tap
-                                    the BAT logo in the URL bar to get started.
+                                    "Two of the most widely-adopted blockchain projects will be joining forces for an
+                                    advertising partnership: Brave and SLIVER.tv / Theta Network! SLIVER.tv / Theta will
+                                    become a Verified Publisher in the Brave browser, while Brave will become a sponsor
+                                    on SLIVER.tv, running ads along side our top streamers."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                                    Plus, we're giving away 100,000 BAT grants on Android, so be on the lookout for
-                                    yours while supplies last!
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="top-card">
+                                <a href="https://coinbase.com/earn/bat" target="_blank">
+                                    <img id="card1-image" src="images/hero-web.svg"
+                                        style="object-fit: cover; object-position: top;" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://coinbase.com/earn/bat" target="_blank">Earn $10
+                                        of BAT with Coinbase</a></h5>
+                                <p class="card-text">
+                                    Brave Software is working with Coinbase Earn, a product that allows users to earn
+                                    utility tokens by viewing and completing educational tasks. $5 million, denominated
+                                    in BAT, is being designated for this opportunity, and 100% of the BAT
+                                    will go directly to users.
+
+                                    <br /><br />
+
+                                    <small>Terms & Conditions apply.</small>
                                 </p>
                             </div>
                         </div>
@@ -296,52 +334,26 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://meetup.com/basicattentiontoken/events" target="_blank">
-                                    <img id="card1-image"
-                                        src="https://blog.batcommunity.org/wp-content/uploads/2019/04/24HoursOfBAT-1400x607.jpg"
+                                <a href="https://brave.com/brave-rewards" target="_blank">
+                                    <img id="card1-image" src="images/braveads.png"
                                         style="object-fit: cover; object-position: top;" width="100%" height="100%">
                                 </a>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><a href="https://meetup.com/basicattentiontoken/events"
-                                        target="_blank">24 Hours of BAT 3.0 Event</a></h5>
+                                <h5 class="card-title"><a href="https://brave.com/brave-rewards" target="_blank">It's
+                                        here. Brave Ads is live!</a></h5>
                                 <p class="card-text">
-                                    On Wednesday, April 24, 2019, volunteers from around the world held BAT &amp;
-                                    Brave
-                                    meetups in their region for "24 Hours of BAT", a global event to draw attention,
-                                    interest and adoption to Basic Attention Token and Brave.
-                                    <br><br>
-                                    For upcoming events, see our <a
-                                        href="https://meetup.com/basicattentiontoken/events">Meetups</a>, here!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                        <div class="card">
-                            <div class="top-card">
-                                <a href="https://coinbase.com/earn/bat" target="_blank">
-                                    <img id="card1-image" src="images/hero-web.svg"
-                                        style="object-fit: cover; object-position: top;" width="100%" height="100%">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="https://coinbase.com/earn/bat" target="_blank">Earn $10
-                                        of BAT with Coinbase</a></h5>
-                                <p class="card-text">
-                                    Brave Software is working with Coinbase Earn, a product that allows users to earn
-                                    utility tokens by viewing and completing educational tasks. $5 million, denominated
-                                    in BAT, is being designated for this opportunity, and 100% of the BAT
-                                    will go directly to users.
-
+                                    Starting today, users of Brave’s latest release of the desktop browser can choose to
+                                    view privacy-preserving Brave Ads by opting into Brave Rewards. These users will
+                                    receive 70% of the ad revenue share as a reward for their attention.
                                     <br /><br />
-
-                                    <small>Terms & Conditions apply.</small>
+                                    See our <a href="https://brave.com/brave-ads-launch/">announcement blog post</a> for
+                                    details.
                                 </p>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
@@ -468,9 +480,10 @@
 <script src="js/background.js"></script>
 
 <!-- Autoplay Carousel -->
-<script> $('.carousel').carousel({
+<script>
+    $('.carousel').carousel({
         interval: 6250
-    }) 
+    })
 </script>
 
 </html>

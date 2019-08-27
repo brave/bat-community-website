@@ -31,11 +31,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -80,8 +80,14 @@
             var u = "//analytics.brave.com/";
             _paq.push(['setTrackerUrl', u + 'piwik.php']);
             _paq.push(['setSiteId', '8']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
         })();
     </script>
     <noscript>
@@ -353,7 +359,7 @@
                                 data-parent="#accordionExample">
                                 <div class="card-body">
 
-                                        <a href="https://www.reddit.com/r/BATProject/comments/c2j1q0/im_marshall_rose_principal_engineer_at_brave_ask/"
+                                    <a href="https://www.reddit.com/r/BATProject/comments/c2j1q0/im_marshall_rose_principal_engineer_at_brave_ask/"
                                         class="list-group-item list-group-item-action flex-column align-items-start"
                                         target="_blank">
                                         <div class="d-flex w-100 justify-content-between">
@@ -363,14 +369,14 @@
 
                                         </div>
 
-                                        <small>Marshall Rose is Principal Engineer on ledger systems at Brave. 
+                                        <small>Marshall Rose is Principal Engineer on ledger systems at Brave.
                                         </small>
                                     </a>
 
 
-                                    
 
-                                        <a href="https://www.reddit.com/r/BATProject/comments/bx4a92/im_jimmy_secretan_vp_of_services_and_operations/"
+
+                                    <a href="https://www.reddit.com/r/BATProject/comments/bx4a92/im_jimmy_secretan_vp_of_services_and_operations/"
                                         class="list-group-item list-group-item-action flex-column align-items-start"
                                         target="_blank">
                                         <div class="d-flex w-100 justify-content-between">
@@ -394,7 +400,7 @@
 
                                         </div>
 
-                                        <small>Johnny Ryan is Chief Policy Officer at Brave. 
+                                        <small>Johnny Ryan is Chief Policy Officer at Brave.
                                         </small>
                                     </a>
 
@@ -408,7 +414,7 @@
 
                                         </div>
 
-                                        <small>Jan, Brad and Des are on the Business Development team at Brave. 
+                                        <small>Jan, Brad and Des are on the Business Development team at Brave.
                                         </small>
                                     </a>
 
@@ -630,11 +636,26 @@
 
                 <div class="row">
 
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="top-card">
+                                <a href="https://www.reddit.com/r/BATProject/comments/7cr7yc/new_to_bat_read_this_introduction_to_basic/"
+                                    target="_blank">
+                                    <img id="card1-image" src="images/BATgraphic.jpg"
+                                        style="object-fit: cover; object-position: center;" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p><strong>Guide:</strong> Introduction to BAT</p>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://basicattentiontoken.org/ama-with-brendan-eich/" target="_blank">
+                                <a href="https://www.reddit.com/r/BATProject/comments/97trex/im_brendan_eich_ceo_of_bat_and_brave_ama/" target="_blank">
                                     <img id="card1-image" src="images/brendaneich-facesofopensource.jpg"
                                         style="object-fit: cover; object-position: top;" width="100%" height="100%">
                                 </a>
@@ -648,21 +669,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="top-card">
-                                <a href="https://brave.com/ama-with-yan-zhu/" target="_blank">
-                                    <img id="card1-image" src="images/yanzhu-facesofopensource2.jpg"
-                                        style="object-fit: cover; object-position: top;" width="100%" height="100%">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <p>AMA with Yan Zhu (CISO)</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                        <div class="card">
-                            <div class="top-card">
-                                <a href="https://brave.com/ama-with-brian-brown/" target="_blank">
+                                <a href="https://www.reddit.com/r/BATProject/comments/9x1zdw/im_brian_brown_braves_chief_business_officer_ama/" target="_blank">
                                     <img id="card1-image" src="images/brianbrown.jpg"
                                         style="object-fit: cover; object-position: center;" width="100%" height="100%">
                                 </a>

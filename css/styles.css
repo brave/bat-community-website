@@ -46,6 +46,7 @@ body {
     margin: auto;
     z-index: 0;
     opacity: 0;
+    padding: 6px;
 } 
 
 .pageTitle {

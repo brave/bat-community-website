@@ -1,1 +1,1 @@
-<?php header( 'Location: https://blog.batcommunity.org/2020/01/the-weekly-bat-jan-17-2020/' ) ;  ?>
+<?php header( 'Location: https://blog.batcommunity.org/2020/01/the-weekly-bat-podcast-ep-26-jan-24-2020-brave-surpasses-11m-mau-3-5m-dau-brendan-eich-on-the-unchained-podcast-upcoming-guest-ama-with-access79-livestream-vote-for-brave-in-prod/' ) ;  ?>

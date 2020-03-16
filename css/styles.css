@@ -263,7 +263,7 @@ nav .collapsing {
 a:hover {
     text-decoration: none;
     cursor: pointer !important;
-    color: purple;
+    color: #8531f1;
     transition: 0.3s;
 }
 
@@ -345,6 +345,7 @@ a:hover {
 
 .cardRows .card-body {
     padding: 18px;
+    padding-bottom: 22px;
         
 }
 
@@ -368,7 +369,7 @@ a:hover {
 }
 
 .cardRows .card {
-    height: 28.75em;
+    /* height: 28.75em; */
     border: 0px;
     margin-top: 1.75em;
 } 

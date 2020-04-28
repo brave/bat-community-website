@@ -372,6 +372,9 @@ a:hover {
     /* height: 28.75em; */
     border: 0px;
     margin-top: 1.75em;
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
 } 
 
 .card .badge {

@@ -258,10 +258,11 @@ nav .collapsing {
     transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -webkit-transition: color .2s ease-in-out;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer !important;
     color: #8531f1;
     transition: 0.3s;
@@ -306,20 +307,29 @@ a:hover {
 
 .top-card img:hover {
     cursor: pointer !important;
-    filter: brightness(85%);
     transition: filter .15s ease-in-out;
     -moz-transition: filter .15s ease-in-out;
     -webkit-transition: filter .15s ease-in-out;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
 }
+
+.top-card:hover {
+    cursor: pointer !important;
+    transition: filter .15s ease-in-out;
+    -moz-transition: filter .15s ease-in-out;
+    -webkit-transition: filter .15s ease-in-out;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
 
 .top-card {
     width: 100%;
     height: 14em;
     background-color: none;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
     overflow: hidden;
 }
 
@@ -365,7 +375,7 @@ a:hover {
 .card {
     /* box-shadow: 0 2px 8px 0 rgba(35,47,53,.09); */
     box-shadow: 0px 12px 18px -6px rgba(34,56,101,0.1);
-    border-radius: .5em;
+    border-radius: .25em;
 }
 
 .cardRows .card {
@@ -385,6 +395,29 @@ a:hover {
     box-shadow: 0px 2px 4px 0px rgba(34,56,101,.3);
     background-color: #ff4d18;
     z-index: 1;
+}
+
+.card button {
+    background: #d52a1d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: .25rem;
+    padding: .25rem;
+    padding-right: .85rem;
+    padding-left: .85rem;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 1px;
+    margin-top: .5rem;
+}
+
+.card button:hover {
+    background: white;
+    box-shadow: inset 0 0 0 2px #d52a1d;
+    color: #d52a1d;
+    transition: 0.15s;
 }
 
 i.fab {

@@ -417,8 +417,24 @@ a:hover {
     background: white;
     box-shadow: inset 0 0 0 2px #d52a1d;
     color: #d52a1d;
-    transition: 0.15s;
 }
+
+.card button.vz-tweet {
+    background: #00aced;
+    border-radius: 3px;
+}
+
+.card button.vz-tweet:hover {
+    background: none;
+    color: #00aced;
+    box-shadow: inset 0 0 0 2px #00aced;
+}
+
+.card-title.vz-title {
+    font-size: 1.1rem;
+}
+
+
 
 i.fab {
     padding-right: .65em;

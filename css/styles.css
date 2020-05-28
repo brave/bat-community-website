@@ -445,33 +445,6 @@ i.fab {
     margin-top: -.5em;
 }
 
-/* #redditStream-card {
-    overflow: auto !important;
-}
-
-#redditStream {
-    padding: .5em;
-}
-
-#redditStream a {
-    color: black;
-}
-
-.redditStream-item {
-    margin-bottom: .3em;
-    padding: 0.8em;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-
-}
-
-#redditCard .card-body {
-    padding: 0;
-    padding-right: .45em;
-    padding-left: .45em;
-} */
-
 /* Media Queries */ 
 
 @media only screen and (max-width: 992px) {

@@ -1,1 +1,1 @@
-<?php header( 'Location: https://blog.batcommunity.org/2020/06/the-weekly-bat-podcast-ep-45-jun-8-2020-brave-surpasses-15m-mau-5m-dau-and-flies-1530-privacy-preserving-ad-campaigns-in-1-year-brave-ranked-2-free-app-in-japan-brendan-eich-brav/' ) ;  ?>
+<?php header( 'Location: https://blog.batcommunity.org/2020/06/the-weekly-bat-episode-47/' ) ;  ?>

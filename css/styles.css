@@ -413,6 +413,15 @@ a:hover {
     margin-top: .5rem;
 }
 
+.accordion .card button {
+    background: white;
+}
+
+.accordion .card button:hover {
+    background: rgba(0,0,0,.03);
+    box-shadow: none;
+}
+
 .card button:hover {
     background: white;
     box-shadow: inset 0 0 0 2px #d52a1d;
@@ -433,7 +442,6 @@ a:hover {
 .card-title.vz-title {
     font-size: 1.1rem;
 }
-
 
 
 i.fab {

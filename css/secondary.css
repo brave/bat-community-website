@@ -52,7 +52,6 @@
 }
 
 #knowledge-accordion .card-header:hover {
-    background-color: gainsboro;
     transition: background-color .25s ease-in-out;
     -moz-transition: bakground-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
@@ -69,6 +68,7 @@
 #knowledge-accordion .card-header .btn-link { /* Disable hover effect */
     text-decoration: none;
     font-size: .8em;
+    background: rgb(250, 250, 250);
 }
 
 #knowledge-accordion .card-header .btn-link:hover { /* Disable hover effect */

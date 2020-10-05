@@ -1,1 +1,1 @@
-<?php header( 'Location: https://blog.batcommunity.org/2020/09/the-weekly-bat-episode-62/' ) ;  ?>
+<?php header( 'Location: https://blog.batcommunity.org/2020/10/the-weekly-bat-episode-63/' ) ;  ?>

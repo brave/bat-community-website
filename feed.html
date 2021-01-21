@@ -69,6 +69,10 @@
     <script type="text/javascript">
         var _paq = _paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["disableAlwaysUseSendBeacon"]);
+        _paq.push(['disableCookies']);
+        _paq.push(["setSecureCookie", true]);
+        _paq.push(["setDoNotTrack", true]);
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
         _paq.push(["setCookieDomain", "*.batcommunity.org"]);
         _paq.push(["setDomains", ["*.batcommunity.org"]]);
